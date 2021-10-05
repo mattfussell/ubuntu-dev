@@ -14,3 +14,8 @@ sudo apt-get update
 sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install aptitude firefox localepurge nodejs npm git gitsome code
+
+# Update NodeJS
+npm cache clean -f
+sudo npm install -g n
+sudo n stable
